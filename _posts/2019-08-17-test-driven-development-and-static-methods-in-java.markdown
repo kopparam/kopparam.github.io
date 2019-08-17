@@ -9,7 +9,7 @@ categories: TDD
 
 There were more than a lot of instances when Java's static methods get in the way of test driving my implementation. In this post, I want to explain what kind of situations these are, how I choose to solve them and why I need to solve them.
 
-The most basic example for this situation is generating random UUIDs in the service layer. Let us take an example where I get a purche order payload, which has information on how to process the payment and what to purchase with that money. The method signature looks something like this.
+The most basic example for this situation is generating random UUIDs in the service layer. Let us take an example where I get a purchase order payload, which has information on how to process the payment and what to purchase with that money. The method signature looks something like this.
 
 {% highlight java %}
 CheckoutResponse checkout(Payment payment, Order order);
@@ -40,7 +40,7 @@ So let me inject this into the class under test.
 public CheckoutProcessor(..., Supplier<UUID> randomUUID);
 {% endhighlight %}
 
-Now, this is how I can use it to stub the behavior
+Now, this is how I can use it to stub the behavior using JUnit5
 
 {% highlight java %}
 class TestCheckoutProcessor {
