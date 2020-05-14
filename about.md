@@ -13,12 +13,14 @@ Lead Engineer, with over 6 years of experience in software development for appli
 Work History
 ------------
 
-* GoJek Singapore: Jun 2018 - Present
+* *GoJek Singapore: Jun 2018 - Present*
   * Joint Financing System, Lead Engineer
+    
+    Assuming a new role in one of the most challenging environments, I had to step up and take new responsibilities in stakeholder management, bridging communication gaps and reducing communication distances, design and development of the application architecture and infrastructure, manage and develop 5 engineers in the team. Taking this application to production with very few incidents is surely one of the most satisfying experiences so far. The application currently handles 200K loans daily.
 
   * GoSave, Senior Engineer
 
-    Another product from scratch. I was the only senior engineer in a team of 3 and I almost single handedly setup kubernetes, kafka, logging, monitoring, ssl manager etc, in order to get the user story development started. I also was responsible to deliver user-stories with pair programming.
+    Another product from scratch. I was the only senior engineer in a team of 3, and I almost single handedly setup kubernetes, kafka, logging, monitoring, ssl manager etc, in order to get the user story development started. I also was responsible to deliver user-stories with pair programming.
 
     Technologies: Java, Golang, Postgres, Kafka, Terraform, Kubernetes, AWS
 
