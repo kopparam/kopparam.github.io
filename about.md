@@ -32,7 +32,7 @@ Work History
 
     Technologies: Java, Golang, Postgres, Terraform, Kubernetes, AWS
 
-  *  Pay Later, Senior Engineer
+  * Pay Later, Senior Engineer
 
     Hitting the ground running, I was introduced to the existing team mostly Consultants and was responsible for delivering the product into production within a tight deadline. The key moment in this stint was recognising the bottleneck and improve it, in this case it was the infrastructure and deployment scripts.
 
